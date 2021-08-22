@@ -13,6 +13,10 @@
   src: url("./fonts/Spectral-Italic.ttf");
   }
 
+.leftContainer {
+  display: flex;
+}
+
 .title {
   font-family: Spectral_SemiBold;
   font-size: 48px;
