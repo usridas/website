@@ -1,7 +1,11 @@
+.pageContainer {
+  margin: 100px;
+}
+
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(4, 150px);
-  grid-template-rows: repeat(4, 150px);
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
   grid-gap: 20px;
 }
 
