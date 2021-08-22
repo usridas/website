@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Spectral_SemiBold";
+  src: url("./fonts/Spectral-SemiBold.ttf");
+  }
+
+@font-face {
+  font-family: "Spectral_Regular";
+  src: url("./fonts/Spectral-Regular.ttf");
+  }
+
+.title {
+  font-family: Spectral_SemiBold;
+  font-size: 48px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.pageContainer {
+  margin: 75px;
+}
+
+.artContent {
+  display: flex;
+  margin-top: 20px;
+}
+
+.description {
+  width: 500px;
+  margin-right: 20px;
+  font-family: Spectral_Regular;
+  font-size: 24px;
+}
+
+.gridContainer {
+  display: grid;
+  margin-left: auto;
+  grid-template-columns: repeat(2, 400px);
+  grid-template-rows: repeat(2, 400px);
+  grid-gap: 20px;
+}
+
+.item {
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
