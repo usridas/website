@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Spectral_SemiBold";
+  src: url("./fonts/Spectral-SemiBold.ttf");
+  }
+
+@font-face {
+  font-family: "Spectral_Regular";
+  src: url("./fonts/Spectral-Regular.ttf");
+  }
+
+@font-face {
+  font-family: "Spectral_Italic";
+  src: url("./fonts/Spectral-Italic.ttf");
+  }
+
+.title {
+  font-family: Spectral_SemiBold;
+  font-size: 48px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.subtitle {
+  font-family: Spectral_Italic;
+  font-size: 20px;
+}
+
+.description {
+  width: 500px;
+  margin-right: 20px;
+  font-family: Spectral_Regular;
+  font-size: 24px;
+}
