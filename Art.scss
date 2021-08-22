@@ -19,6 +19,15 @@
   margin: 100px;
 }
 
+.artContent {
+  display: flex;
+}
+
+.description {
+  width: 500px;
+  margin-right: 20px;
+}
+
 .gridContainer {
   display: grid;
   grid-template-columns: repeat(4, 100px);
