@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "Spectral_SemiBold";
+  src: url("./fonts/Spectral-SemiBold.ttf");
+  }
+
+@font-face {
+  font-family: "Spectral_Regular";
+  src: url("./fonts/Spectral-Regular.ttf");
+  }
+
+.title {
+  text-align: center;
+  font-family: Spectral_SemiBold;
+  font-size: 48px;
+  margin: 35px;
+}
+
 .pageContainer {
   margin: 100px;
 }
