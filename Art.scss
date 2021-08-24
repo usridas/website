@@ -8,14 +8,14 @@
   src: url("./fonts/Spectral-Regular.ttf");
   }
 
+.pageContainer {
+  margin: 75px auto;
+}
+
 .title {
   font-family: Spectral_SemiBold;
   font-size: 48px;
   border-bottom: 1px solid #C4C4C4;
-}
-
-.pageContainer {
-  margin: 75px;
 }
 
 .artContent {
