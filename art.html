@@ -19,7 +19,7 @@
           <div>
             <img id="img1" class="item" src="./images/Apollo_Daphne_Infographic-2020-Digital.png" alt="Apollo and Daphne Mythology" width="125"/>
             <div id="modal" class="modal">
-              <img id="modalImg1" onclick="modal1()" class="modalImage">
+              <img id="modalImage" onclick="modal1()" class="modalImage">
             </div>
           </div>
           <div>
@@ -76,10 +76,10 @@
       function modal1() {
         var modal = document.getElementById("modal");
         var img = document.getElementById("img1");
-        var modalImg = document.getElementById("modalImg1");
+        var modalImg = document.getElementById("modalImage");
         modal.style.display = "block";
         modalImg.src = "./images/Apollo_Daphne_Infographic-2020-Digital.png";
-        document.getElementById("modalImg1").onclick = function() { 
+        document.getElementById("modalImage").onclick = function() { 
           modal.style.display = "none";
         }
       }
