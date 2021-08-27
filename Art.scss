@@ -48,19 +48,15 @@
 }
 
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
+  position: fixed;
+  z-index: 1;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
 }
 
 .modalImage {
-  margin: auto;
+  margin-left: auto;
   display: block;
   width: 300px;
 }
