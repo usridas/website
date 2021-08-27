@@ -64,3 +64,21 @@
   display: block;
   width: 525px;
 }
+
+.caption {
+  display: flex;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.captionTitle {
+  display: block;
+  font-family: Spectral_SemiBold;
+  font-size: 36px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.captionBody {
+  display: block;
+  font-family: Spectral_Regular;
+  font-size: 24px;
+}
