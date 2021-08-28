@@ -63,11 +63,13 @@
 .modalImage {
   margin: 75px 75px 75px auto;
   display: block;
-  width: 525px;
+  min-width: 400px;
+  max-width: 500px;
   overflow: auto;
 }
 
 .caption {
+  width: 100%
   margin: 75px;
   display: block;
   background-color: rgba(0,0,0,0.5);
