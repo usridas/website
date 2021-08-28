@@ -70,7 +70,7 @@
   width: 100%;
   margin: 75px 20px 75px 75px;
   display: block;
-  background-color: rgba(0,0,0,0.5);
+  background-color: #000000;
 }
 
 .captionTitle {
@@ -78,10 +78,12 @@
   font-family: Spectral_SemiBold;
   font-size: 36px;
   border-bottom: 1px solid #C4C4C4;
+  color: #FFFFFF;
 }
 
 .captionBody {
   display: block;
   font-family: Spectral_Regular;
   font-size: 24px;
+  color: #FFFFFF;
 }
