@@ -77,14 +77,112 @@
   font-size: 24px;
 }
 
-.progress {
+.progress1 {
   background-color: palevioletred;
-  animation: progressBar 2s ease-in-out;
+  animation: progressBar1 2s ease-in-out;
   animation-fill-mode: both;
 }
 
-@keyframes progressBar {
+@keyframes progressBar1 {
   0% { width: 0; }
-  100% { width: 100%; }
+  100% { width: 80%; }
 }
 
+.progress2 {
+  background-color: palevioletred;
+  animation: progressBar2 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar2 {
+  0% { width: 0; }
+  100% { width: 75%; }
+}
+
+.progress3 {
+  background-color: palevioletred;
+  animation: progressBar3 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar3 {
+  0% { width: 0; }
+  100% { width: 50%; }
+}
+
+.progress4 {
+  background-color: palevioletred;
+  animation: progressBar4 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar4 {
+  0% { width: 0; }
+  100% { width: 60%; }
+}
+
+.progress5 {
+  background-color: palevioletred;
+  animation: progressBar5 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar5 {
+  0% { width: 0; }
+  100% { width: 95%; }
+}
+
+.progress6 {
+  background-color: palevioletred;
+  animation: progressBar6 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar6 {
+  0% { width: 0; }
+  100% { width: 75%; }
+}
+
+.progress7 {
+  background-color: palevioletred;
+  animation: progressBar7 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar7 {
+  0% { width: 0; }
+  100% { width: 55%; }
+}
+
+.progress8 {
+  background-color: palevioletred;
+  animation: progressBar8 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar8 {
+  0% { width: 0; }
+  100% { width: 70%; }
+}
+
+.progress9 {
+  background-color: palevioletred;
+  animation: progressBar9 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar9 {
+  0% { width: 0; }
+  100% { width: 30%; }
+}
+
+.progress10 {
+  background-color: palevioletred;
+  animation: progressBar10 2s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar10 {
+  0% { width: 0; }
+  100% { width: 50%; }
+}
