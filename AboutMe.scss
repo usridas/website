@@ -83,16 +83,18 @@
   animation-fill-mode: both;
 }
 
-@keyframes progressBar1 {
-  0% { width: 0; }
-  100% { width: 80%; }
-}
-
 .progress2 {
   background-color: palevioletred;
   animation: progressBar2 2s ease-in-out;
   animation-fill-mode: both;
 }
+
+@keyframes progressBar1 {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+
+
 
 @keyframes progressBar2 {
   0% { width: 0; }
@@ -177,12 +179,12 @@
 }
 
 .progress10 {
-  background-color: palevioletred;
+  background-color: #EF8BB9;
   animation: progressBar10 2s ease-in-out;
   animation-fill-mode: both;
 }
 
 @keyframes progressBar10 {
   0% { width: 0; }
-  100% { width: 50%; }
+  100% { width: 40%; }
 }
