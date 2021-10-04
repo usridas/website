@@ -67,15 +67,20 @@
   border: 1px solid #000000;
 }
 
+.skills span {
+  display: block;
+  height: 100%;
+}
+
 .individualSkill {
   font-family: Spectral_Regular;
   font-size: 24px;
 }
 
 .progress {
-  height: 100%;
   background-color: palevioletred;
   animation: progressBar 2s ease-in-out;
+  animation-fill-mode: both;
 }
 
 @keyframes progressBar {
