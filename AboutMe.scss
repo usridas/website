@@ -78,12 +78,17 @@
 }
 
 .progress::before {
-  opacity: 0;
-  animation: 0.5s 1.5s linear forwards;
+  opacity: 0%;
+  animation: move 2s linear infinite;
 }
 
 .progress::after {
   opacity: 100%;
-  animation: 0.5s 1.5s linear forwards;
+  animation: move 2s linear infinite;
+}
+
+@keyframes move {
+  0% { width: 0; }
+  100% { width: 100%; }
 }
 
