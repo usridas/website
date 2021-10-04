@@ -77,3 +77,13 @@
   background-color: palevioletred;
 }
 
+.progress::before {
+  opacity: 0;
+  animation: 0.5s 1.5s linear forwards;
+}
+
+.progress::after {
+  opacity: 100%;
+  animation: 0.5s 1.5s linear forwards;
+}
+
