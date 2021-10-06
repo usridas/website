@@ -8,6 +8,10 @@
   src: url("./fonts/Spectral-Regular.ttf");
 }
 
+.body {
+  margin: 0 50px;
+}
+
 .pageContainer {
   margin: 75px auto;
   display: block;
@@ -16,7 +20,7 @@
 }
 
 .title {
-  min-width: 800px;
+  min-width: 900px;
   font-family: Spectral_SemiBold;
   font-size: 48px;
   border-bottom: 1px solid #c4c4c4;
