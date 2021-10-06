@@ -20,7 +20,7 @@
 }
 
 .title {
-  min-width: 900px;
+  min-width: 800px;
   font-family: Spectral_SemiBold;
   font-size: 48px;
   border-bottom: 1px solid #c4c4c4;
@@ -64,7 +64,7 @@
   width: 100%;
   height: auto;
   min-height: 100%;
-  overflow: auto;
+  overflow: scroll;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -73,7 +73,7 @@
   display: block;
   min-width: 400px;
   max-width: 500px;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .caption {
