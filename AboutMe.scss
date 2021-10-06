@@ -1,17 +1,17 @@
 @font-face {
   font-family: "Spectral_SemiBold";
   src: url("./fonts/Spectral-SemiBold.ttf");
-  }
+}
 
 @font-face {
   font-family: "Spectral_Regular";
   src: url("./fonts/Spectral-Regular.ttf");
-  }
+}
 
 @font-face {
   font-family: "Spectral_Italic";
   src: url("./fonts/Spectral-Italic.ttf");
-  }
+}
 
 .body {
   margin: 0 50px;
@@ -28,7 +28,11 @@
   min-width: 1200px;
   font-family: Spectral_SemiBold;
   font-size: 48px;
-  border-bottom: 1px solid #C4C4C4;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.caption {
+  margin-right: 70px;
 }
 
 .aboutMeContent {
@@ -78,113 +82,151 @@
 }
 
 .progress1 {
-  background-color: #EF8BB9;
+  background-color: #ef8bb9;
   animation: progressBar1 2s ease-in-out;
   animation-fill-mode: both;
 }
 
 .progress2 {
-  background-color: #EF8BB9;
+  background-color: #ef8bb9;
   animation: progressBar2 2s ease-in-out;
   animation-fill-mode: both;
 }
 
 @keyframes progressBar1 {
-  0% { width: 0; }
-  100% { width: 80%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
 }
 
-
-
 @keyframes progressBar2 {
-  0% { width: 0; }
-  100% { width: 75%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
 }
 
 .progress3 {
-  background-color: #EF8BB9;
+  background-color: #ef8bb9;
   animation: progressBar3 2s ease-in-out;
   animation-fill-mode: both;
 }
 
 @keyframes progressBar3 {
-  0% { width: 0; }
-  100% { width: 50%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
 }
 
 .progress4 {
-  background-color: #EF8BB9;
+  background-color: #ef8bb9;
   animation: progressBar4 2s ease-in-out;
   animation-fill-mode: both;
 }
 
 @keyframes progressBar4 {
-  0% { width: 0; }
-  100% { width: 60%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
 }
 
 .progress5 {
-  background-color: #EF8BB9;
+  background-color: #ef8bb9;
   animation: progressBar5 2s ease-in-out;
   animation-fill-mode: both;
 }
 
 @keyframes progressBar5 {
-  0% { width: 0; }
-  100% { width: 95%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
 }
 
 .progress6 {
-  background-color: #EF8BB9;
+  background-color: #ef8bb9;
   animation: progressBar6 2s ease-in-out;
   animation-fill-mode: both;
 }
 
 @keyframes progressBar6 {
-  0% { width: 0; }
-  100% { width: 75%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
 }
 
 .progress7 {
-  background-color: #EF8BB9;
+  background-color: #ef8bb9;
   animation: progressBar7 2s ease-in-out;
   animation-fill-mode: both;
 }
 
 @keyframes progressBar7 {
-  0% { width: 0; }
-  100% { width: 55%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 55%;
+  }
 }
 
 .progress8 {
-  background-color: #EF8BB9;
+  background-color: #ef8bb9;
   animation: progressBar8 2s ease-in-out;
   animation-fill-mode: both;
 }
 
 @keyframes progressBar8 {
-  0% { width: 0; }
-  100% { width: 70%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
 }
 
 .progress9 {
-  background-color: #EF8BB9;
+  background-color: #ef8bb9;
   animation: progressBar9 2s ease-in-out;
   animation-fill-mode: both;
 }
 
 @keyframes progressBar9 {
-  0% { width: 0; }
-  100% { width: 30%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 30%;
+  }
 }
 
 .progress10 {
-  background-color: #EF8BB9;
+  background-color: #ef8bb9;
   animation: progressBar10 2s ease-in-out;
   animation-fill-mode: both;
 }
 
 @keyframes progressBar10 {
-  0% { width: 0; }
-  100% { width: 40%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
 }
