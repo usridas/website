@@ -69,7 +69,7 @@
 }
 
 .modalImage {
-  margin: 75px 75px 75px auto;
+  margin: 50px 50px 50px auto;
   display: block;
   min-width: 400px;
   max-width: 500px;
@@ -78,7 +78,8 @@
 
 .caption {
   width: 100%;
-  margin: 75px 20px 75px 75px;
+  min-width: 400px;
+  margin: 50px 20px 50px 50px;
   display: block;
   background-color: #000000;
   padding: 20px;
