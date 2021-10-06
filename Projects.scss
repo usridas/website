@@ -1,23 +1,25 @@
 @font-face {
   font-family: "Spectral_SemiBold";
   src: url("./fonts/Spectral-SemiBold.ttf");
-  }
+}
 
 @font-face {
   font-family: "Spectral_Regular";
   src: url("./fonts/Spectral-Regular.ttf");
-  }
+}
 
 .pageContainer {
   margin: 75px auto;
   display: block;
   max-width: 1200px;
+  min-width: 800px;
 }
 
 .title {
+  min-width: 800px;
   font-family: Spectral_SemiBold;
   font-size: 48px;
-  border-bottom: 1px solid #C4C4C4;
+  border-bottom: 1px solid #c4c4c4;
 }
 
 .artContent {
