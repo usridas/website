@@ -8,23 +8,6 @@
   src: url("./fonts/Spectral-Regular.ttf");
 }
 
-.body {
-  margin: 0 50px;
-  //min-width: 900px;
-}
-
-.pageContainer {
-  margin: 75px auto;
-  display: block;
-  max-width: 1200px;
-}
-
-.title {
-  font-family: Spectral_SemiBold;
-  font-size: 48px;
-  border-bottom: 1px solid #c4c4c4;
-}
-
 @media (min-width: 1001px) {
   .artContent {
     display: flex;
@@ -47,7 +30,7 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) and (min-width: 661px) {
   .artContent {
     display: flex;
     flex-direction: column;
@@ -67,6 +50,45 @@
     grid-template-rows: repeat(4, 125px);
     grid-gap: 20px;
   }
+}
+
+@media (max-width: 660px) {
+  .artContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .description {
+    width: 100%;
+    min-width: 320px;
+    font-family: Spectral_Regular;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .gridContainer {
+    display: grid;
+    margin: 0px auto;
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: repeat(8, 270px);
+    grid-gap: 20px;
+  }
+}
+
+.body {
+  margin: 0 50px;
+  //min-width: 900px;
+}
+
+.pageContainer {
+  margin: 75px auto;
+  display: block;
+  max-width: 1200px;
+}
+
+.title {
+  font-family: Spectral_SemiBold;
+  font-size: 48px;
+  border-bottom: 1px solid #c4c4c4;
 }
 
 .item {
