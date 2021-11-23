@@ -68,8 +68,8 @@
   .gridContainer {
     display: grid;
     margin: 0px auto;
-    grid-template-columns: repeat(2, 270px);
-    grid-template-rows: repeat(8, 270px);
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(8, 150px);
     grid-gap: 20px;
   }
 }
