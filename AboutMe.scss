@@ -13,9 +13,29 @@
   src: url("./fonts/Spectral-Italic.ttf");
 }
 
+@media (min-width: 1001px) {
+  .allSkills {
+    display: flex;
+    flex-direction: row;
+  }
+  .skillsLeft {
+    width: 50%;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .allSkills {
+    display: flex;
+    flex-direction: column;
+  }
+  .skillsLeft {
+    width: 50%;
+  }
+}
+
 .body {
   margin: 0 50px;
-  min-width: 900px;
 }
 
 .pageContainer {
@@ -56,11 +76,6 @@
   margin: 75px 0 0 auto;
 }
 
-.allSkills {
-  display: flex;
-  flex-direction: row;
-}
-
 .skills {
   width: 50%;
 }
@@ -72,6 +87,11 @@
 }
 
 .skills span {
+  display: block;
+  height: 100%;
+}
+
+.skillsLeft span {
   display: block;
   height: 100%;
 }
