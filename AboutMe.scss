@@ -22,6 +22,10 @@
     width: 50%;
     margin-right: 20px;
   }
+  .skillsRight {
+    width: 50%;
+    margin-left: 20px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -30,6 +34,9 @@
     flex-direction: column;
   }
   .skillsLeft {
+    width: 50%;
+  }
+  .skillsRight {
     width: 50%;
   }
 }
@@ -76,17 +83,13 @@
   margin: 75px 0 0 auto;
 }
 
-.skills {
-  width: 50%;
-}
-
 .skillBar {
   width: 100%;
   height: 20px;
   border: 1px solid #000000;
 }
 
-.skills span {
+.skillsRight span {
   display: block;
   height: 100%;
 }
