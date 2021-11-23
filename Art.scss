@@ -17,7 +17,6 @@
   margin: 75px auto;
   display: block;
   max-width: 1200px;
-  min-width: 800px;
 }
 
 .title {
@@ -29,6 +28,9 @@
 .artContent {
   display: flex;
   margin-top: 20px;
+  @media and screen and (min-width: '1000px') {
+    flex-direction: column;
+  }
 }
 
 .description {
@@ -37,6 +39,9 @@
   margin-right: 20px;
   font-family: Spectral_Regular;
   font-size: 24px;
+  @media and screen and (min-width: '1000px') {
+    margin-bottom: 20px;
+  }
 }
 
 .gridContainer {
