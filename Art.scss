@@ -25,26 +25,60 @@
   border-bottom: 1px solid #c4c4c4;
 }
 
-.artContent {
-  display: flex;
-  margin-top: 20px;
-  @media (max-width: 1000px) {
-    flex-direction: column;
+@media (min-width: 1001px) {
+  .artContent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  .description {
+    width: 100%;
+    min-width: 320px;
+    font-family: Spectral_Regular;
+    font-size: 24px;
+    margin-right: 20px;
   }
 }
 
-.description {
-  width: 100%;
-  min-width: 320px;
-  font-family: Spectral_Regular;
-  font-size: 24px;
-  @media (min-width: 1001px) {
-    margin-right: 20px;
+@media (max-width: 1000px) {
+  .artContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
   }
-  @media (max-width: 1000px) {
+  .description {
+    width: 100%;
+    min-width: 320px;
+    font-family: Spectral_Regular;
+    font-size: 24px;
     margin-bottom: 20px;
   }
 }
+
+
+// .artContent {
+//   display: flex;
+//   margin-top: 20px;
+//   @media (min-width: 1001px) {
+//     flex-direction: row;
+//   }
+//   @media (max-width: 1000px) {
+//     flex-direction: column;
+//   }
+// }
+
+// .description {
+//   width: 100%;
+//   min-width: 320px;
+//   font-family: Spectral_Regular;
+//   font-size: 24px;
+//   @media (min-width: 1001px) {
+//     margin-right: 20px;
+//   }
+//   @media (max-width: 1000px) {
+//     margin-bottom: 20px;
+//   }
+// }
 
 .gridContainer {
   display: grid;
