@@ -38,6 +38,13 @@
     font-size: 24px;
     margin-right: 20px;
   }
+  .gridContainer {
+    display: grid;
+    margin-left: auto;
+    grid-template-columns: repeat(4, 125px);
+    grid-template-rows: repeat(4, 125px);
+    grid-gap: 20px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -53,39 +60,13 @@
     font-size: 24px;
     margin-bottom: 20px;
   }
-}
-
-
-// .artContent {
-//   display: flex;
-//   margin-top: 20px;
-//   @media (min-width: 1001px) {
-//     flex-direction: row;
-//   }
-//   @media (max-width: 1000px) {
-//     flex-direction: column;
-//   }
-// }
-
-// .description {
-//   width: 100%;
-//   min-width: 320px;
-//   font-family: Spectral_Regular;
-//   font-size: 24px;
-//   @media (min-width: 1001px) {
-//     margin-right: 20px;
-//   }
-//   @media (max-width: 1000px) {
-//     margin-bottom: 20px;
-//   }
-// }
-
-.gridContainer {
-  display: grid;
-  margin-left: auto;
-  grid-template-columns: repeat(4, 125px);
-  grid-template-rows: repeat(4, 125px);
-  grid-gap: 20px;
+  .gridContainer {
+    display: grid;
+    margin: 0px auto;
+    grid-template-columns: repeat(4, 125px);
+    grid-template-rows: repeat(4, 125px);
+    grid-gap: 20px;
+  }
 }
 
 .item {
