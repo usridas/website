@@ -31,6 +31,21 @@
   .modalWrapper {
     display: flex;
   }
+  .modalImage {
+    margin: 50px 50px 50px auto;
+    display: block;
+    min-width: 400px;
+    max-width: 500px;
+    overflow: auto;
+  }
+  .caption {
+    width: 100%;
+    min-width: 360px;
+    margin: 50px 20px 50px 50px;
+    display: block;
+    background-color: #000000;
+    padding: 20px;
+  }
 }
 
 @media (max-width: 1000px) and (min-width: 661px) {
@@ -55,6 +70,21 @@
   }
   .modalWrapper {
     display: block;
+  }
+  .modalImage {
+    margin: 50px 50px 50px 50px;
+    display: block;
+    min-width: 400px;
+    max-width: 950px;
+    overflow: auto;
+  }
+  .caption {
+    width: 100%;
+    min-width: 360px;
+    margin: 50px 50px 20px 50px;
+    display: block;
+    background-color: #000000;
+    padding: 20px;
   }
 }
 
@@ -81,11 +111,25 @@
   .modalWrapper {
     display: block;
   }
+  .modalImage {
+    margin: 50px 50px 50px 50px;
+    display: block;
+    min-width: 400px;
+    max-width: 950px;
+    overflow: auto;
+  }
+  .caption {
+    width: 100%;
+    min-width: 360px;
+    margin: 50px 50px 20px 50px;
+    display: block;
+    background-color: #000000;
+    padding: 20px;
+  }
 }
 
 .body {
   margin: 0 50px;
-  //min-width: 900px;
 }
 
 .pageContainer {
@@ -120,23 +164,6 @@
   min-height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modalImage {
-  margin: 50px 50px 50px auto;
-  display: block;
-  min-width: 400px;
-  max-width: 500px;
-  overflow: auto;
-}
-
-.caption {
-  width: 100%;
-  min-width: 360px;
-  margin: 50px 20px 50px 50px;
-  display: block;
-  background-color: #000000;
-  padding: 20px;
 }
 
 .captionTitle {
