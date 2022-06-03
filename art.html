@@ -25,7 +25,7 @@
               src="./images/Apollo_Daphne_Infographic-2020-Digital.png"
               alt="Apollo and Daphne Mythology"
               width="100%"
-              onclick="modal1()"
+              onclick="modal('modal1', 'img1', 'modalImage1', './images/Apollo_Daphne_Infographic-2020-Digital_Full.png')"
             />
             <div id="modal1" class="modal">
               <div class="modalWrapper">
@@ -157,7 +157,7 @@
               class="item"
               src="./images/Nintendo_Pixel_Art-01.png"
               alt="Video Game Art"
-             width="100%"
+              width="100%"
               onclick="modal8()"
             />
             <div id="modal8" class="modal">
@@ -326,6 +326,17 @@
       </div>
     </div>
     <script>
+      function modal(modalString, imageString, modalImageString, source) {
+        var modal = document.getElementById(modalString);
+        var img = document.getElementById(imageString);
+        var modalImg = document.getElementById(modalImageString);
+        modal.style.display = "block";
+        modalImg.src = source;
+        modal.onclick = function () {
+          modal.style.display = "none";
+        };
+      }
+
       function modal1() {
         var modal = document.getElementById("modal1");
         var img = document.getElementById("img1");
