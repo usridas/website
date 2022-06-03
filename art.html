@@ -44,7 +44,7 @@
               src="./images/Blood_Orange.png"
               alt="Blood Orange"
               width="100%"
-              onclick="modal2()"
+              onclick="modal('modal2', 'img2', 'modalImage2', './images/Blood_Orange_Full.png')"
             />
             <div id="modal2" class="modal">
               <div class="modalWrapper">
@@ -63,7 +63,7 @@
               src="./images/Chakras-2020-Digital.png"
               alt="The Seven Chakras"
               width="100%"
-              onclick="modal3()"
+              onclick="modal('modal3', 'img3', 'modalImage3', './images/Chakras-2020-Digital_Full.png')"
             />
             <div id="modal3" class="modal">
               <div class="modalWrapper">
@@ -82,7 +82,7 @@
               src="./images/Ganga_Aunty_Expressions.png"
               alt="Ganga Aunty"
               width="100%"
-              onclick="modal4()"
+              onclick="modal('modal4', 'img4', 'modalImage4', './images/Ganga_Aunty_Expressions_Full.png')"
             />
             <div id="modal4" class="modal">
               <div class="modalWrapper">
@@ -101,7 +101,7 @@
               src="./images/IMG_20171213_173509701.jpg"
               alt="Self Portrait"
               width="100%"
-              onclick="modal5()"
+              onclick="modal('modal5', 'img5', 'modalImage5', './images/IMG_20171213_173509701_Full.jpg')"
             />
             <div id="modal5" class="modal">
               <div class="modalWrapper">
@@ -120,7 +120,7 @@
               src="./images/Jersey_14-2015-AcrylicOnWood.jpg"
               alt="Basketball Jersey"
               width="100%"
-              onclick="modal6()"
+              onclick="modal('modal6', 'img6', 'modalImage6', './images/Jersey_14-2015-AcrylicOnWood_Full.jpg')"
             />
             <div id="modal6" class="modal">
               <div class="modalWrapper">
@@ -139,7 +139,7 @@
               src="./images/Mural-2016-AcrylicOnPanels.JPG"
               alt="Mural"
               width="100%"
-              onclick="modal7()"
+              onclick="modal('modal7', 'img7', 'modalImage7', './images/Mural-2016-AcrylicOnPanels_Full.JPG')"
             />
             <div id="modal7" class="modal">
               <div class="modalWrapper">
@@ -158,7 +158,7 @@
               src="./images/Nintendo_Pixel_Art-01.png"
               alt="Video Game Art"
               width="100%"
-              onclick="modal8()"
+              onclick="modal('modal8', 'img8', 'modalImage8', './images/Nintendo_Pixel_Art-01_Full.png')"
             />
             <div id="modal8" class="modal">
               <div class="modalWrapper">
@@ -177,7 +177,7 @@
               src="./images/Planets_Sticker_Sheet_001.png"
               alt="The Planets"
               width="100%"
-              onclick="modal9()"
+              onclick="modal('modal9', 'img9', 'modalImage9', './images/Planets_Sticker_Sheet_001_Full.png')"
             />
             <div id="modal9" class="modal">
               <div class="modalWrapper">
@@ -196,7 +196,7 @@
               src="./images/Postcard-01.png"
               alt="Postcard"
               width="100%"
-              onclick="modal10()"
+              onclick="modal('modal10', 'img10', 'modalImage10', './images/Postcard-01_Full.png')"
             />
             <div id="modal10" class="modal">
               <div class="modalWrapper">
@@ -215,7 +215,7 @@
               src="./images/Sri_Lanka_Topography-2019-Digital.png"
               alt="Topography of Sri Lanka"
               width="100%"
-              onclick="modal11()"
+              onclick="modal('modal11', 'img11', 'modalImage11', './images/Sri_Lanka_Topography-2019-Digital_Full.png')"
             />
             <div id="modal11" class="modal">
               <div class="modalWrapper">
@@ -234,7 +234,7 @@
               src="./images/UIUC_Research_Graphics_1-2019-Digital.png"
               alt="UIUC Research Graphics"
               width="100%"
-              onclick="modal12()"
+              onclick="modal('modal12', 'img12', 'modalImage12', './images/UIUC_Research_Graphics_1-2019-Digital_Full.png')"
             />
             <div id="modal12" class="modal">
               <div class="modalWrapper">
@@ -253,7 +253,7 @@
               src="./images/UniversalArts2.png"
               alt="Warrior"
               width="100%"
-              onclick="modal13()"
+              onclick="modal('modal13', 'img13', 'modalImage13', './images/UniversalArts2_Full.png')"
             />
             <div id="modal13" class="modal">
               <div class="modalWrapper">
@@ -272,7 +272,7 @@
               src="./images/Viasat_404_Error-2020-Digital.png"
               alt="Viasat 404 Error Page"
               width="100%"
-              onclick="modal14()"
+              onclick="modal('modal14', 'img14', 'modalImage14', './images/Viasat_404_Error-2020-Digital_Full.png')"
             />
             <div id="modal14" class="modal">
               <div class="modalWrapper">
@@ -291,7 +291,7 @@
               src="./images/Vintage_Women_2.png"
               alt="Forgotten Women"
               width="100%"
-              onclick="modal15()"
+              onclick="modal('modal15', 'img15', 'modalImage15', './images/Vintage_Women_2_Full.png')"
             />
             <div id="modal15" class="modal">
               <div class="modalWrapper">
@@ -310,7 +310,7 @@
               src="./images/Women_in_Tech_Banner-2019-Digital.png"
               alt="Viasat Women in Tech"
               width="100%"
-              onclick="modal16()"
+              onclick="modal('modal16', 'img16', 'modalImage16', './images/Women_In_Tech_Banner-2019-Digital_Full.png')"
             />
             <div id="modal16" class="modal">
               <div class="modalWrapper">
@@ -332,184 +332,6 @@
         var modalImg = document.getElementById(modalImageString);
         modal.style.display = "block";
         modalImg.src = source;
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal1() {
-        var modal = document.getElementById("modal1");
-        var img = document.getElementById("img1");
-        var modalImg = document.getElementById("modalImage1");
-        modal.style.display = "block";
-        modalImg.src =
-          "./images/Apollo_Daphne_Infographic-2020-Digital_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal2() {
-        var modal = document.getElementById("modal2");
-        var img = document.getElementById("img2");
-        var modalImg = document.getElementById("modalImage2");
-        modal.style.display = "block";
-        modalImg.src = "./images/Blood_Orange_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal3() {
-        var modal = document.getElementById("modal3");
-        var img = document.getElementById("img3");
-        var modalImg = document.getElementById("modalImage3");
-        modal.style.display = "block";
-        modalImg.src = "./images/Chakras-2020-Digital_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal4() {
-        var modal = document.getElementById("modal4");
-        var img = document.getElementById("img4");
-        var modalImg = document.getElementById("modalImage4");
-        modal.style.display = "block";
-        modalImg.src = "./images/Ganga_Aunty_Expressions_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal5() {
-        var modal = document.getElementById("modal5");
-        var img = document.getElementById("img5");
-        var modalImg = document.getElementById("modalImage5");
-        modal.style.display = "block";
-        modalImg.src = "./images/IMG_20171213_173509701_Full.jpg";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal6() {
-        var modal = document.getElementById("modal6");
-        var img = document.getElementById("img6");
-        var modalImg = document.getElementById("modalImage6");
-        modal.style.display = "block";
-        modalImg.src = "./images/Jersey_14-2015-AcrylicOnWood_Full.jpg";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal7() {
-        var modal = document.getElementById("modal7");
-        var img = document.getElementById("img7");
-        var modalImg = document.getElementById("modalImage7");
-        modal.style.display = "block";
-        modalImg.src = "./images/Mural-2016-AcrylicOnPanels_Full.JPG";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal8() {
-        var modal = document.getElementById("modal8");
-        var img = document.getElementById("img8");
-        var modalImg = document.getElementById("modalImage8");
-        modal.style.display = "block";
-        modalImg.src = "./images/Nintendo_Pixel_Art-01_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal9() {
-        var modal = document.getElementById("modal9");
-        var img = document.getElementById("img9");
-        var modalImg = document.getElementById("modalImage9");
-        modal.style.display = "block";
-        modalImg.src = "./images/Planets_Sticker_Sheet_001_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal10() {
-        var modal = document.getElementById("modal10");
-        var img = document.getElementById("img10");
-        var modalImg = document.getElementById("modalImage10");
-        modal.style.display = "block";
-        modalImg.src = "./images/Postcard-01_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal11() {
-        var modal = document.getElementById("modal11");
-        var img = document.getElementById("img11");
-        var modalImg = document.getElementById("modalImage11");
-        modal.style.display = "block";
-        modalImg.src = "./images/Sri_Lanka_Topography-2019-Digital_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal12() {
-        var modal = document.getElementById("modal12");
-        var img = document.getElementById("img12");
-        var modalImg = document.getElementById("modalImage12");
-        modal.style.display = "block";
-        modalImg.src =
-          "./images/UIUC_Research_Graphics_1-2019-Digital_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal13() {
-        var modal = document.getElementById("modal13");
-        var img = document.getElementById("img13");
-        var modalImg = document.getElementById("modalImage13");
-        modal.style.display = "block";
-        modalImg.src = "./images/UniversalArts2_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal14() {
-        var modal = document.getElementById("modal14");
-        var img = document.getElementById("img14");
-        var modalImg = document.getElementById("modalImage14");
-        modal.style.display = "block";
-        modalImg.src = "./images/Viasat_404_Error-2020-Digital_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal15() {
-        var modal = document.getElementById("modal15");
-        var img = document.getElementById("img15");
-        var modalImg = document.getElementById("modalImage15");
-        modal.style.display = "block";
-        modalImg.src = "./images/Vintage_Women_2_Full.png";
-        modal.onclick = function () {
-          modal.style.display = "none";
-        };
-      }
-
-      function modal16() {
-        var modal = document.getElementById("modal16");
-        var img = document.getElementById("img16");
-        var modalImg = document.getElementById("modalImage16");
-        modal.style.display = "block";
-        modalImg.src = "./images/Women_in_Tech_Banner-2019-Digital_Full.png";
         modal.onclick = function () {
           modal.style.display = "none";
         };
